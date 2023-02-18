@@ -42,7 +42,7 @@ class Email{
         $contenido = "<html>";
         $contenido .= "<p><strong>Hola " . $this->nombre . "</strong> Has creado tu cuenta en LucatoniBarberShop, por favor 
         confirma tu cuenta presionando el siguiente enlace</p>";
-        $contenido .= "<p>Presiona aqui: <a href='http://localhost:3000/confirmar-cuenta?token=" .$this->token . "'>Confirmar Cuenta</a> </p>";
+        $contenido .= "<p>Presiona aqui: <a href='https://fathomless-savannah-26199.herokuapp.com/confirmar-cuenta?token=" .$this->token . "'>Confirmar Cuenta</a> </p>";
         $contenido .= "<p>Si no solicitastes este cambio, puedes ignorar el mensaje</p>";
         $contenido .= "</html>";
 
@@ -75,7 +75,7 @@ class Email{
         //Definir el contenido     
         $contenido = "<html>";
         $contenido .= "<p><strong>Hola " . $this->nombre . "</strong> Has solicitado reestablecer tu password, reestablece tu password presionando el siguiente enlace</p>";
-        $contenido .= "<p>Presiona aqui: <a href='http://localhost:3000/recuperar?token=" .$this->token . "'>Reestablecer tu contraseña</a> </p>";
+        $contenido .= "<p>Presiona aqui: <a href='https://fathomless-savannah-26199.herokuapp.com/recuperar?token=" .$this->token . "'>Reestablecer tu contraseña</a> </p>";
         $contenido .= "<p>Si no solicitastes este cambio, puedes ignorar el mensaje</p>";
         $contenido .= "</html>";
 
