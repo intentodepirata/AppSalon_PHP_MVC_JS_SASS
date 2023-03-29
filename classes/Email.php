@@ -26,7 +26,7 @@ class Email{
         $phpmailer->SMTPAuth = true;
         $phpmailer->Port = 587;
         $phpmailer->Username = 'intentodepirata@gmail.com';
-        $phpmailer->Password = 'msjmegcyyrzdrjqi';
+        $phpmailer->Password = '';
         $phpmailer->SMTPSecure = 'tls';
 
         //configurar el contenido
@@ -60,7 +60,7 @@ class Email{
         $phpmailer->SMTPAuth = true;
         $phpmailer->Port = 587;
         $phpmailer->Username = 'intentodepirata@gmail.com';
-        $phpmailer->Password = 'msjmegcyyrzdrjqi';
+        $phpmailer->Password = '';
         $phpmailer->SMTPSecure = 'tls';
 
         //configurar el contenido
